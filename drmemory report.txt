@@ -1,0 +1,126 @@
+Dr. Memory version 2.5.0 build 0 built on Oct 18 2021 03:10:43
+Windows version: WinVer=105;Rel=2009;Build=22621;Edition=Core
+Dr. Memory results for pid 12184: "Lab3.exe"
+Application cmdline: "./Lab3.exe"
+Recorded 124 suppression(s) from default C:\Users\Roxxannia\Downloads\DrMemory-Windows-2.5.0\bin\suppress-default.txt
+
+Error #1: UNINITIALIZED READ: reading register eax
+# 0 KERNELBASE.dll!FindNextFileW             +0x20e    (0x7647fdbe <KERNELBASE.dll+0x11fdbe>)
+# 1 KERNELBASE.dll!FindNextFileA             +0x33     (0x765708b4 <KERNELBASE.dll+0x2108b4>)
+# 2 .text                                     [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv                                  [C:\Users\Roxxannia\Documents\Year 4\COMPENG 2SH4\In Class Activities\lab-3-wangs302/Question2.c:167]
+# 5 .text   
+# 6 mainCRTStartup
+# 7 ntdll.dll!RtlInitializeExceptionChain    +0x6a     (0x773dbd2b <ntdll.dll+0x6bd2b>)
+# 8 ntdll.dll!RtlClearBits                   +0xbe     (0x773dbcaf <ntdll.dll+0x6bcaf>)
+Note: @0:00:00.857 in thread 11988
+Note: instruction: cmp    %eax $0x0000001a
+
+Error #2: UNINITIALIZED READ: reading register eax
+# 0 KERNELBASE.dll!FindNextFileW             +0x23b    (0x7647fdeb <KERNELBASE.dll+0x11fdeb>)
+# 1 KERNELBASE.dll!FindNextFileA             +0x33     (0x765708b4 <KERNELBASE.dll+0x2108b4>)
+# 2 .text                                     [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv                                  [C:\Users\Roxxannia\Documents\Year 4\COMPENG 2SH4\In Class Activities\lab-3-wangs302/Question2.c:167]
+# 5 .text   
+# 6 mainCRTStartup
+# 7 ntdll.dll!RtlInitializeExceptionChain    +0x6a     (0x773dbd2b <ntdll.dll+0x6bd2b>)
+# 8 ntdll.dll!RtlClearBits                   +0xbe     (0x773dbcaf <ntdll.dll+0x6bcaf>)
+Note: @0:00:00.861 in thread 11988
+Note: instruction: data16 mov    %cx -> 0x00000234(%ebx,%eax,2)
+
+Error #3: UNINITIALIZED READ: reading register eax
+# 0 KERNELBASE.dll!FindNextFileW             +0x1ca    (0x7647fd7a <KERNELBASE.dll+0x11fd7a>)
+# 1 KERNELBASE.dll!FindNextFileA             +0x33     (0x765708b4 <KERNELBASE.dll+0x2108b4>)
+# 2 .text                                     [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv                                  [C:\Users\Roxxannia\Documents\Year 4\COMPENG 2SH4\In Class Activities\lab-3-wangs302/Question2.c:167]
+# 5 .text   
+# 6 mainCRTStartup
+# 7 ntdll.dll!RtlInitializeExceptionChain    +0x6a     (0x773dbd2b <ntdll.dll+0x6bd2b>)
+# 8 ntdll.dll!RtlClearBits                   +0xbe     (0x773dbcaf <ntdll.dll+0x6bcaf>)
+Note: @0:00:00.880 in thread 11988
+Note: instruction: cmp    %eax $0x00000206
+
+Error #4: UNINITIALIZED READ: reading register eax
+# 0 KERNELBASE.dll!FindNextFileW             +0x1fd    (0x7647fdad <KERNELBASE.dll+0x11fdad>)
+# 1 KERNELBASE.dll!FindNextFileA             +0x33     (0x765708b4 <KERNELBASE.dll+0x2108b4>)
+# 2 .text                                     [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv                                  [C:\Users\Roxxannia\Documents\Year 4\COMPENG 2SH4\In Class Activities\lab-3-wangs302/Question2.c:167]
+# 5 .text   
+# 6 mainCRTStartup
+# 7 ntdll.dll!RtlInitializeExceptionChain    +0x6a     (0x773dbd2b <ntdll.dll+0x6bd2b>)
+# 8 ntdll.dll!RtlClearBits                   +0xbe     (0x773dbcaf <ntdll.dll+0x6bcaf>)
+Note: @0:00:00.880 in thread 11988
+Note: instruction: data16 mov    %cx -> 0x2c(%ebx,%eax,2)
+
+Error #5: UNINITIALIZED READ: reading 0x00e912e8-0x00e912ec 4 byte(s)
+# 0 KERNELBASE.dll!FindNextFileW             +0x24e    (0x7647fdfe <KERNELBASE.dll+0x11fdfe>)
+# 1 KERNELBASE.dll!FindNextFileA             +0x33     (0x765708b4 <KERNELBASE.dll+0x2108b4>)
+# 2 .text                                     [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv                                  [C:\Users\Roxxannia\Documents\Year 4\COMPENG 2SH4\In Class Activities\lab-3-wangs302/Question2.c:167]
+# 5 .text   
+# 6 mainCRTStartup
+# 7 ntdll.dll!RtlInitializeExceptionChain    +0x6a     (0x773dbd2b <ntdll.dll+0x6bd2b>)
+# 8 ntdll.dll!RtlClearBits                   +0xbe     (0x773dbcaf <ntdll.dll+0x6bcaf>)
+Note: @0:00:00.888 in thread 11988
+Note: instruction: test   0x38(%edi) $0x00000400
+
+Error #6: UNINITIALIZED READ: reading register eax
+# 0 .text                                     [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 1 __mingw_readdir                           [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 2 .text                                     [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv                                  [C:\Users\Roxxannia\Documents\Year 4\COMPENG 2SH4\In Class Activities\lab-3-wangs302/Question2.c:167]
+# 5 .text   
+# 6 mainCRTStartup
+# 7 ntdll.dll!RtlInitializeExceptionChain    +0x6a     (0x773dbd2b <ntdll.dll+0x6bd2b>)
+# 8 ntdll.dll!RtlClearBits                   +0xbe     (0x773dbcaf <ntdll.dll+0x6bcaf>)
+Note: @0:00:00.896 in thread 11988
+Note: instruction: cmp    %eax $0x00000010
+
+Error #7: UNINITIALIZED READ: reading register eax
+# 0 KERNELBASE.dll!FindNextFileW             +0x167    (0x7647fd17 <KERNELBASE.dll+0x11fd17>)
+# 1 KERNELBASE.dll!FindNextFileA             +0x33     (0x765708b4 <KERNELBASE.dll+0x2108b4>)
+# 2 .text                                     [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 3 __mingw_glob                              [../../../src/gcc-6.3.0/libgcc/config/i386/cygwin.S:184]
+# 4 _setargv                                  [C:\Users\Roxxannia\Documents\Year 4\COMPENG 2SH4\In Class Activities\lab-3-wangs302/Question2.c:167]
+# 5 .text   
+# 6 mainCRTStartup
+# 7 ntdll.dll!RtlInitializeExceptionChain    +0x6a     (0x773dbd2b <ntdll.dll+0x6bd2b>)
+# 8 ntdll.dll!RtlClearBits                   +0xbe     (0x773dbcaf <ntdll.dll+0x6bcaf>)
+Note: @0:00:00.896 in thread 11988
+Note: instruction: test   %eax %eax
+
+===========================================================================
+FINAL SUMMARY:
+
+DUPLICATE ERROR COUNTS:
+	Error #   1:     12
+	Error #   2:      9
+	Error #   3:      3
+	Error #   4:      3
+	Error #   5:      3
+	Error #   6:      3
+	Error #   7:      2
+
+SUPPRESSIONS USED:
+
+ERRORS FOUND:
+      0 unique,     0 total unaddressable access(es)
+      7 unique,    35 total uninitialized access(es)
+      0 unique,     0 total invalid heap argument(s)
+      0 unique,     0 total GDI usage error(s)
+      0 unique,     0 total handle leak(s)
+      0 unique,     0 total warning(s)
+      0 unique,     0 total,      0 byte(s) of leak(s)
+      0 unique,     0 total,      0 byte(s) of possible leak(s)
+ERRORS IGNORED:
+      2 potential error(s) (suspected false positives)
+         (details: C:\Users\Roxxannia\Downloads\DrMemory-Windows-2.5.0\drmemory\logs\DrMemory-Lab3.exe.12184.000\potential_errors.txt)
+      9 unique,     9 total,   4513 byte(s) of still-reachable allocation(s)
+         (re-run with "-show_reachable" for details)
+Details: C:\Users\Roxxannia\Downloads\DrMemory-Windows-2.5.0\drmemory\logs\DrMemory-Lab3.exe.12184.000\results.txt
